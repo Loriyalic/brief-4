@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://smtpjs.com/v3/smtp.js"> </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script defer src="JS/validation.js"></script>
+  <title>Accueil</title>
+</head>
+
+<body>
+  <header>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 position-absolute p-0 text-uppercase text-light fs-5">
+      <div class="container-fluid w-90 p-0 m-0">
+        <a class="logo_a1 " href="index.html"><img src="assets/images/logo_bg/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-around" id="navbarNav">
+          <a class="navbar-brand" href="index.html"><img src="assets/images/logo_bg/logo.png" alt=""></a>
+          <ul class="navbar-nav d-flex align-items-center text-decoration-none">
+            <li class="nav-item p-10">
+              <a class="nav-link text-light py-4" href="presentation.html">L'Equipe</a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle text-decoration-none text-light bg-luxe-hover py-5 " href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                LES ACTIVITÉS
+              </a>
+              <!-- MENU BURGER -->
+              <ul class="dropdown-menu bg-333">
+                <li><a class="dropdown-item text-light text-luxe-hover" href="404.html">LE CYCLING</a></li>
+                <li><a class="dropdown-item text-light text-luxe-hover" href="404.html">LE TRAINING FONCTIONNEL</a></li>
+                <li><a class="dropdown-item text-light text-luxe-hover" href="404.html">LE CROSSFIT</a></li>
+                <li><a class="dropdown-item text-light text-luxe-hover" href="404.html">PERSONAL TRAINING - COACH
+                    PERSONNEL</a></li>
+              </ul>
+            </li>
+            <!-- NAVBAR BOUTON HAUT -->
+            <li class="nav-item p-10">
+              <a class="nav-link text-light py-4" href="404.html">Nos offres</a>
+            </li>
+            <li class="nav-item p-10">
+              <a class="nav-link text-light py-4" href="404.html">Planning</a>
+            </li>
+            <li class="nav-item p-10">
+              <a class="nav-link text-light py-4" href="404.html">Le blog</a>
+            </li>
+            <li class="nav-item p-10">
+              <a class="nav-link text-light py-4" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="tel_reseau d-flex justify-content-around w-25">
+            <div class="tel d-lg-none d-xl-block"><a href="contact.html" class="text-decoration-none text-light text-luxe-hover"><i
+                  class="fa-solid fa-mobile"></i> &nbsp; 05 59 47 84 18</a></div>
+            <div class="reseau w-30 w-lg-65 d-flex justify-content-evenly">
+              <a class="text-light text-luxe-hover" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a class="text-light text-luxe-hover" href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a class="text-light text-luxe-hover" href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="lang position-absolute top-0 text-center bg-luxe text-black">EN</div>
+        </div>
+      </div>
+    </nav>
+    <div class="div">
+      <img src="assets/images/visuel/visuel_2.jpg" class="w-100" alt="visuel_2">
+    </div>
+
+  </header>
+  <!-- MAIN FORMULAIRE-->
+  <main>
+    <div class="container_contact d-flex justify-content-center align-items-center flex-column-reverse flex-lg-row py-lg-5 ">
+      <div class="cordonnees h-lg-448 h-xl-622">
+        <h1 class="text-center text-md-start ">NOS COORDONNÉES</h1>
+        <div class="d-flex justify-content-center pb-4 justify-content-md-start"><img src="assets/images/logo_bg/bg_titre.jpg" class="img-fluid" alt=""></div>
+        <ul class="d-flex flex-column align-item-center p-0 align-items-lg-start">
+          <li class="d-flex flex-column w-50 mx-auto"><strong>Studio sport & Coaching</strong>01 Allée Marie Politzer 64200
+            Biarritz</li>
+            <li class="d-flex flex-column w-50 mx-auto"><strong>Telephone</strong>05 59 47 84 18</li>
+            <li class="d-flex flex-column w-50 mx-auto"><strong>Horaires</strong>Du lundi au vendredi de 8h à 14h, de 16h à 21h Le
+              samedi de 10h à 13h</li>
+              <li class="d-flex flex-column w-50 mx-auto"><strong>Email</strong>contact (at) studiobiarritz.com ou via ce formulaire
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex flex-column w-50">
+        <h1 class="pt-1 text-center text-md-start">FORMULAIRE DE CONTACT</h1>
+        <div class="d-flex justify-content-center pb-3 justify-content-md-start"><img src="assets/images/logo_bg/bg_titre.jpg" class="" alt=""></div>
+        <div class="d-flex justify-content-between flex-wrap w-100 my-lg-2">
+          <input type="text" class="form-control  w-100p w-lg-50" id="input1" placeholder="VOTRE NOM">
+          <input type="text" class="form-control  w-100p w-lg-45 my-2 my-lg-0" id="input2" placeholder="VOTRE PRENOM">
+        </div>
+      <div class="d-flex justify-content-between flex-wrap w-100 my-lg-2">
+        <input type="tel" class="form-control w-100p w-lg-30" id="input3" placeholder="VOTRE TELEPHONE">
+        <input type="email" class="form-control w-100p w-lg-65 my-2 my-lg-0" id="input4" placeholder="VOTRE EMAIL">
+      </div>
+
+    <div class="mb-3">
+    <input type="text" class="form-control" id="input5" placeholder="SUJET">
+    </div>
+        <div class="mb-3">
+          
+          <textarea class="form-control" id="Textarea1" rows="3" placeholder="VOTRE MESSAGE"></textarea>
+        </div>
+        <input class="d-block w-xs-20 w-lg-10 my-5 text-light fs-5 text-uppercase fw-bold " type="submit">
+      </form>
+    </div>
+    <!-- 6 CARDS FOOTER -->
+    <img src="assets/images/logo_bg/googlemap_dark.PNG" class="w-100" alt="">
+  </main>
+
+  <footer class="text-center text-lg-start text-white" style="background-color:#282828">
+    <div class="card-group position-relative d-flex">
+      <div class="imgs_cards card border-0">
+        <img src="assets/images/coach/bastien-coach-fitness-biarritz-cote-basque.jpg" class="imgs_cards img-fluid"
+          alt="coach-1">
+        <div class="coach-1 coach"><i class="fa-solid fa-message"></i>60&nbsp;&nbsp;<i class="fa-solid fa-heart"></i>120
+        </div>
+      </div>
+      <div class="imgs_cards card border-0">
+        <img src="assets/images/coach/julie-coach-fitness-biarritz.jpg" class="imgs_cards img-fluid" alt="coach-2">
+        <div class="coach-2 coach"><i class="fa-solid fa-message"></i>60&nbsp;&nbsp;<i class="fa-solid fa-heart"></i>120
+        </div>
+      </div>
+      <div class="imgs_cards position-relative d-flex w-75  justify-content-around card border-0">
+        <img src="assets/images/coach/elise-coach-biarritz-salle-de-sport.jpg" class="imgs_cards img-fluid"
+          alt="coach-3">
+        <div class="coach-3 coach"><i class="fa-solid fa-message"></i>60&nbsp;&nbsp;<i class="fa-solid fa-heart"></i>120
+        </div>
+      </div>
+      <div class="imgs_cards card border-0">
+        <img src="assets/images/coach/martial-coach-crossfit-biarritz.jpg" class="imgs_cards img-fluid" alt="coach-4">
+        <div class="coach-4 coach"><i class="fa-solid fa-message"></i>60&nbsp;&nbsp;<i class="fa-solid fa-heart"></i>120
+        </div>
+      </div>
+      <div class="imgs_cards card border-0">
+        <img src="assets/images/coach/julien-coach-biarritz-fitness-studio-sport.jpg" class="imgs_cards img-fluid"
+          alt="coach-5">
+        <div class="coach-5 coach"><i class="fa-solid fa-message"></i>60&nbsp;&nbsp;<i class="fa-solid fa-heart"></i>120
+        </div>
+      </div>
+      <div class="imgs_cards card border-0">
+        <img src="assets/images/coach/bastien-coach-fitness-biarritz-cote-basque.jpg" class="imgs_cards img-fluid"
+          alt="coach-6">
+        <div class="coach-6 coach text-light"><i class="fa-solid fa-message"></i>60&nbsp;&nbsp;<i
+            class="fa-solid fa-heart"></i>120</div>
+      </div>
+      <div
+        class="arotwitter position-absolute w-200 h-30 bg-light top-50 start-50 translate-middle text-dark text-center d-flex align-items-center justify-content-center fw-bold">
+        @STUDIOBIARRITZ</div>
+    </div>
+    <div class="container p-4 pb-0 d-flex align-items-center">
+<!-- LIENS UTILES -->
+      <section>
+        <div class="row align-items-center">
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center justify-content-star">
+              <a href="#"><img src="./assets/images/logo_bg/logo_footer.png" alt="tkt"></a>
+              <h5 class="m-left-25"> À PROPOS</h5>
+            </div>
+            <h6 class="m-0">2018 @ Studio Sport & Coaching Biarritz</h6>
+            <p class="fw-lighter m-0">Salle de sport, de fitness et de crossfit à Biarritz pays basque.</p>
+            <p class="m-0 fw-lighter">RCS : 000 000 000</p>
+
+            <a href="#" class="text-white">Mentions légales</a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="text-uppercase py-4">STUDIO SPORT CORPORATE</h5>
+            <ul>
+              <li><a href="#"
+                  class="test position-relative  text-decoration-none text-light text-luxe-hover m-left-10">Studio
+                  Center : créez votre studio</a></li>
+              <li><a href="#"
+                  class="test position-relative text-white text-decoration-none text-light text-luxe-hover m-left-10">Offres
+                  Spéciales C.E.</a></li>
+              <li><a href="#"
+                  class="test position-relative text-white text-decoration-none text-light text-luxe-hover m-left-10">Devenir
+                  partenaire</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-5 col-md-6 mb-4">
+            <h5 class="text-uppercase py-4">FITNESS,CROSSFIT ET TRAINING AU PAYS BASQUES</h5>
+            <p>
+              Coach personnel de sport à Biarritz, <a href="#"
+                class="text-white text-decoration-none text-light text-luxe-hover">Coach personel de sport à Anglet</a>,
+              Salle de sport à Bayonne, Fitness
+              à Biarritz, Fitness à Anglet, Fitness sur le BAB,
+              Autre mot clé + ville, Autre mot clé + ville, Autre mot clé + ville
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- FIN DU FOOTER -->
+    <section>
+      <div class="bg-black w-100">
+        <div class="d-flex align-items-center justify-content-center p-20">
+          <div>
+            <h6 class="text-center">Un site crée par</h6>
+            <h5 class="text-center">L'AGENCE 364 COM'</h5>
+          </div>
+          <div>
+            <a href="http://www.364communication.com/" target="_blank"><img src="assets/images/logo_bg/364.png"
+                class="img-fluid m-left-10" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </footer>
+
+</body>
+
+</html>
